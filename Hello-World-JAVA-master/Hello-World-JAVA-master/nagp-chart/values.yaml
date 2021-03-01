@@ -1,0 +1,8 @@
+replicaCount: 1
+
+container: devopssampleapplication
+dockerimage: dtr.nagarro.com:443/rupeshkumar01-application
+serviceport: 30158
+svcname: devopssampleapplication-svc
+port: 8080
+autoscale: false
